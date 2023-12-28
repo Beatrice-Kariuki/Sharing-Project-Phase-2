@@ -31,12 +31,19 @@ The real estate industry is constantly changing due to social, economic, and tec
 The key stakeholders who play a vital role in the real estate industry are ;
 
 Real estate analysts - Help in providing valuable insights and analysis to support decision-making processes.
+
 Real estate investors - Individuals or institutions who invest in real estate for the purpose of generating income.
+
 Real estate agents - facilitate property transactions between buyers and sellers.
+
 Financial institutions - b.anks,morgage companies.
+
 Potential home buyers and potential tenants - indivuduals/companies looking to buy or sell their properties.
+
 Government - Regulates the real estate industry through zoning laws, building standards and other regulations.
+
 Real Estate Appriasers - Determine the value of a property based on various factors,helping buyers and lenders assess its worth.
+
 ### 1.3 OBJECTIVES
 To evaluate factors that affect saleprice of houses.
 What combinations of features is best fit for price predictions.
@@ -47,22 +54,39 @@ The dataset has 20 columns and over 21500 records, covering house sales between 
 
 The King County House Sales dataset contains the following columns;
 
-- Price - Sale price (prediction target),
+- Price - Sale price (prediction target)
+
 - bedrooms - Number of bedrooms,
+ 
 - bathrooms - Number of bathrooms,
+ 
 - sqft_living - Square footage of living space in the home,
+
 - sqft_lot - Square footage of the lot,
+
 - floors - Number of floors (levels) in house,
-- view - Quality of view from house,
+
+- view - Quality of view from house
+
 - condition - How good the overall condition of the house is. Related to maintenance of house,
+
 - grade - Overall grade of the house. Related to the construction and design of the house,
+ 
 - sqft_above - Square footage of house apart from basement,
+
 - sqft_basement - Square footage of the basement,
+
 - yr_built - Year when house was built,
+
 - yr_renovated - Year when house was renovated,
+
 - zipcode - ZIP Code used by the United States Postal Service,
+
 - sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors,
+
 - sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors, and
+
 - sell_yr - Date house was sold.
+
 
 The features are included based on their properties and relevance for the project. The features that describe the size, quality, location, and age of the house are expected to have an impact on the price of the house. The features that describe the neighborhood characteristics are also included to capture the external factors that may influence the price.
