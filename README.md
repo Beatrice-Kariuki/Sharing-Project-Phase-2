@@ -1,5 +1,6 @@
 # Sharing-Project-Phase-2
 Project Collaboration
+
 Real Estate Agency
 
 # students names
@@ -46,22 +47,22 @@ The dataset has 20 columns and over 21500 records, covering house sales between 
 
 The King County House Sales dataset contains the following columns;
 
-Price - Sale price (prediction target),
-bedrooms - Number of bedrooms,
-bathrooms - Number of bathrooms,
-sqft_living - Square footage of living space in the home,
-sqft_lot - Square footage of the lot,
-floors - Number of floors (levels) in house,
-view - Quality of view from house,
-condition - How good the overall condition of the house is. Related to maintenance of house,
-grade - Overall grade of the house. Related to the construction and design of the house,
-sqft_above - Square footage of house apart from basement,
-sqft_basement - Square footage of the basement,
-yr_built - Year when house was built,
-yr_renovated - Year when house was renovated,
-zipcode - ZIP Code used by the United States Postal Service,
-sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors,
-sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors, and
-sell_yr - Date house was sold.
+- Price - Sale price (prediction target),
+- bedrooms - Number of bedrooms,
+- bathrooms - Number of bathrooms,
+- sqft_living - Square footage of living space in the home,
+- sqft_lot - Square footage of the lot,
+- floors - Number of floors (levels) in house,
+- view - Quality of view from house,
+- condition - How good the overall condition of the house is. Related to maintenance of house,
+- grade - Overall grade of the house. Related to the construction and design of the house,
+- sqft_above - Square footage of house apart from basement,
+- sqft_basement - Square footage of the basement,
+- yr_built - Year when house was built,
+- yr_renovated - Year when house was renovated,
+- zipcode - ZIP Code used by the United States Postal Service,
+- sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors,
+- sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors, and
+- sell_yr - Date house was sold.
 
 The features are included based on their properties and relevance for the project. The features that describe the size, quality, location, and age of the house are expected to have an impact on the price of the house. The features that describe the neighborhood characteristics are also included to capture the external factors that may influence the price.
