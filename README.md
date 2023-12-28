@@ -1,10 +1,16 @@
 # Sharing-Project-Phase-2
-Project Collaboration
+Real Estate Agency
+
+## STUDENTS NAMES
+Beatrice Kariuki   - Lead
+Rodgers Odhiambo
+Mohamed Ali
+Ahmed HAJI
+Peter Muhia
+Emmanuellar Karisa
 
 
-
-
-
+![awesome](https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG91c2UlMjByZW50YWx8ZW58MHx8MHx8fDA%3D)
 
 
 
