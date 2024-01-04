@@ -56,74 +56,79 @@ Modeling
 In this section, a comprehensive approach to building and evaluating linear regression models for predicting house prices is presented. Both simple linear regression and multiple linear regression models are explored, employing carefully selected features from the earlier sections of the notebook.
 Simple Linear Regression
 The initial analysis involves a simple linear regression model to establish a baseline understanding of the relationship between the target variable, 'price,' and the chosen predictor, 'sqft_living.' The graph illustrates a clear linear relationship, and the baseline model's summary reveals key statistics:
-•Baseline Model Summary:
- •R-squared: 0.493
- •Adjusted R-squared: 0.493
- •F-statistic: 2.097e+04
- •P-value (F-statistic): 0.00
- •Coefficients:
- •Constant: -43988.892194
- •sqft_living: 280.863014
+- Baseline Model Summary:
+ - R-squared: 0.493
+ - Adjusted R-squared: 0.493
+ - F-statistic: 2.097e+04
+ - P-value (F-statistic): 0.00
+ - Coefficients:
+ - Constant: -43988.892194
+ - sqft_living: 280.863014
 The R-squared value indicates that sqft_living explains 49.3% of the variation in price. Both coefficients have statistically significant p-values (0.000), affirming the linear relationship's significance.
-Multiple Linear Regression
+
+#### Multiple Linear Regression
 To enhance predictive accuracy, multiple linear regression models are constructed, considering additional features such as 'bathrooms,' 'house_age,' and 'condition.' A detailed feature analysis identifies multicollinearity issues, leading to the selection of a robust model.
+
 ### Model 1
-•Model Features:
-•bathrooms, sqft_living, house_age, condition
-•Model Summary:
-•R-squared: 0.454
-•Adjusted R-squared: 0.453
-•F-statistic: 3473.0
-•P-value (F-statistic): 0.00
-•Coefficients:
-•Constant: 11.8221
-•bathrooms: 0.1384
-•sqft_living: 0.0003
-•house_age: 0.0037
-•condition: 0.0119
-•Evaluation Metrics:
-•MAE: 0
-•RMSE: 0.4
+- Model Features:
+- bathrooms, sqft_living, house_age, condition
+##### Model Summary:
+- R-squared: 0.454
+ - Adjusted R-squared: 0.453
+- F-statistic: 3473.0
+- P-value (F-statistic): 0.00
+#### Coefficients:
+- Constant: 11.8221
+- bathrooms: 0.1384
+- sqft_living: 0.0003
+- house_age: 0.0037
+- condition: 0.0119
+
+#### Evaluation Metrics:
+- MAE: 0
+- RMSE: 0.4
 
 ### Model 2
 •Model Features:
 •bedrooms, sqft_living, bathrooms, house_age, condition
-•Model Summary:
-•R-squared: 0.465
-•Adjusted R-squared: 0.465
-•F-statistic: 2913.0
-•P-value (F-statistic): 0.00
-•Coefficients:
-•Constant: 11.9325
-•bedrooms: -0.0765
-•sqft_living: 0.0004
-•bathrooms: 0.1572
-•house_age: 0.0039
-•condition: 0.0166
-•Evaluation Metrics:
-•MAE: 0
-•RMSE: 0.3
+#### Model Summary:
+- R-squared: 0.465
+- Adjusted R-squared: 0.465
+- F-statistic: 2913.0
+- P-value (F-statistic): 0.00
+#### Coefficients:
+- Constant: 11.9325
+- bedrooms: -0.0765
+- sqft_living: 0.0004
+- bathrooms: 0.1572
+- house_age: 0.0039
+- condition: 0.0166
+#### Evaluation Metrics:
+- MAE: 0
+- RMSE: 0.3
+
 The selection of Model 2 is justified based on its higher R-squared value (46.5%), indicating a better explanation of variance in the dependent variable.
 
 ### Regression Results
 Model Diagnostics
+
 Ensuring the selected model adheres to linear regression assumptions, diagnostic plots are generated for key features:
-•sqft_living: Residuals show homoscedasticity, normality, and linearity.
-•condition: Residual analysis confirms the assumptions.
-•bathrooms: The diagnostic plots exhibit conformity to linear regression assumptions.
-•house_age: Residual plots indicate satisfactory adherence to assumptions.
-•bedrooms: The model meets the assumptions of normality, homoscedasticity, and linearity.
-Results for Model 2
+- sqft_living: Residuals show homoscedasticity, normality, and linearity.
+- condition: Residual analysis confirms the assumptions.
+- bathrooms: The diagnostic plots exhibit conformity to linear regression assumptions.
+- house_age: Residual plots indicate satisfactory adherence to assumptions.
+- bedrooms: The model meets the assumptions of normality, homoscedasticity, and linearity.
+#### Results for Model 2
 The model demonstrates promising results:
-•Prob (F-statistic): 0.000, below the standard alpha of 0.05.
-•R-squared: 0.465, explaining 46.5% of housing price variability.
-•Coefficients: Significant p-values for all coefficients.
-•Interpretation of Coefficients:
-•Bedrooms: Negative impact on price.
-•Sqft_living: Positive impact on price.
-•Bathrooms: Positive impact on price.
-•House_age: Positive impact on price.
-•Condition: Positive impact on price.
+- Prob (F-statistic): 0.000, below the standard alpha of 0.05.
+- R-squared: 0.465, explaining 46.5% of housing price variability.
+- Coefficients: Significant p-values for all coefficients.
+#### Interpretation of Coefficients:
+- Bedrooms: Negative impact on price.
+- Sqft_living: Positive impact on price.
+- Bathrooms: Positive impact on price.
+- House_age: Positive impact on price.
+- Condition: Positive impact on price.
 
 The model's confidence intervals provide a nuanced understanding of the coefficient estimates.
 
